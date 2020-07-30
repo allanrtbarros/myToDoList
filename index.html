@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myToDoList</title>
+    <link href="CSS/styleheet.css" rel="stylesheet">
+    
+
+</head>
+
+<body class="corBackground">
+    <div id="root">
+    <div class= "content">
+
+        <div class="row">
+
+            <div class="cal-12">
+                <h1 class="textoBranco">To-Do List</h1>
+                <form>
+                    <input type="text" name="tarefa" id='tarefa' placeholder= "Novo Item..."/>
+                    <input type="button" name=""
+                           onclick= "addTarefa()"
+                           value= "Add Tarefa" />
+
+                </form>
+            </div>
+
+        </div>
+        <div class="container textoBranco">
+            <div class="col-12">
+
+                <div class="boxListaDeTarefas">
+
+                    <label class="formatoTexto">Minha Lista</label>
+                    <ul id= "minhaLista">
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="JS/index.js"></script>
+</body>
+</html>

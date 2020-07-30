@@ -1,0 +1,82 @@
+
+		.corBackground{
+			background-color: #363636;
+		}
+		
+		.content{
+			max-width: 100%;
+			max-height: 100%;
+			margin: auto;
+			background: #363636;
+			height: auto;
+			padding: 2%;
+			
+		}
+		.content h1{
+			text-align: center;
+
+		}
+		.textoBranco{
+			color:whitesmoke;
+			text-align: center;
+			
+		}
+
+		.formatoTexto {
+			font-size: 40px;
+            line-height: 2;
+		}
+
+		.boxListaDeTarefas {
+			margin-top: 20px;
+			border-width:1px;  
+			border-style:solid;
+		}
+		
+		input[type=text]{
+			width: 80%;
+			height: 30px;
+			margin-bottom: 10px;
+		}
+		input[type=button]{
+			border: none;
+			width: 17%;
+			float: right;
+			height: 35px;
+			border-radius: 5px;
+			background-color: rgb(76,175,80);
+		}
+		button:hover, input[type=button]:hover{
+			background: #ccc;
+		}
+
+		button, input[type=button]{ cursor: pointer; }
+
+		button{
+			float: right;
+			width: 25px;
+			
+			
+		}
+
+		ul{
+			list-style-type: none;
+			padding: 10px;
+			height: 250px;
+			background: #363636;
+			overflow-y: auto;
+			text-align: start;
+		}
+		li{
+			height: 20px;
+			padding:10px 25px;
+			border-width:1px;  
+			border-style:solid;
+			border-left: 6px solid; 
+			font-size: 20px;
+            line-height: 1;
+
+		}
+
+
+		
